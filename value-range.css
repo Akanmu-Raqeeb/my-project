@@ -1,0 +1,52 @@
+@import url(https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css);
+
+html body{
+    padding: 0px;
+    margin: 0px;
+}
+.logo{ height: 50px;
+    width: 70px;
+    background-image: url(../dominos-project/Dominos-image/dominoslogo.PNG);
+
+}
+.head{height: 60px;
+    width: 100%;
+    background-color: #006491 ;
+    display: flex;
+    justify-content: space-around;
+    color: white;
+    align-items: center;
+    position: fixed;
+    z-index: 1000;
+
+
+}
+.card-title{
+    color: #006491;
+}
+.cont{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.card{
+    margin: 10px !important;
+}
+.head a{
+    color: white;
+    text-decoration: none;
+}
+.head a:hover{color: white;
+    text-decoration: none;
+    padding: 5px;
+    background-color: rgba(95, 158, 160, 0.568);
+}
+@media (max-width:480px){
+    .hide1{
+           display: none !important;
+       }
+       
+   }
+   .btn:focus{transition:ease-in ;
+    background-color: lawngreen !important;
+}

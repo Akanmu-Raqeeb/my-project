@@ -1,0 +1,97 @@
+@import url(https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css);
+.navbar{
+    background-color:#006491 ;
+    justify-content: space-around !important;
+    
+    
+}
+.logo{ height: 50px;
+    width: 70px;
+    background-image: url(../dominos-project/Dominos-image/dominoslogo.PNG);
+
+}
+.collapse ul a {
+    color: white !important;
+    justify-content: space-around;
+
+}
+
+.collapse ul a:hover{padding: 10px;
+    background-color: rgba(0, 0, 0, 0.322);
+    justify-content: space-around !important;
+}
+.modal{
+    color: black !important;
+
+}
+.create{
+    color: blue;
+}
+input{
+    width:100%;
+}
+.order{
+    background-color:#005A82;
+    color: white;
+    padding: 10px;
+    justify-content: center;
+}
+.order1{
+    background-color: #AA1229;
+    color: white;
+    padding: 10px; 
+    justify-content: center;
+}
+
+.des{
+    display: flex !important;
+}
+.bab{
+    display: flex;
+}
+.dse{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 59px;
+}
+.fre{
+    margin-bottom: 15px;
+}
+.ajer{
+    padding-left: 10px;
+}
+.rer{
+    display: flex;
+    align-items: center;
+    font-size: 12px;
+    font-weight: 600;
+
+
+}
+.cert{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.cert:hover{
+    background-color: #005074;
+    transition: ease-in 0.3s;
+}
+.navbar{
+    width: 100% !important;
+}
+.text{
+    background-color: #DBDBDB;
+    
+}
+.img1{
+    width: 250px;
+}
+@media (max-width:920px) {
+    
+    .navbar{
+        width:1350px !important;
+    }
+}
